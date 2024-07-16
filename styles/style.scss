@@ -32,24 +32,44 @@ body {
       display: none;
     }
 
-    .product-type {
-      color: $dark-grayish-blue;
-      
+    .text-holder {
+      width: 100%;
+      padding: 5%;
+
+      .product-type {
+        font-size: 14px;
+        letter-spacing: 0.3rem;
+        color: $dark-grayish-blue;
+      }
+
+      h1 {
+        font-family: Fraunces;
+      }
     }
   }
 }
 
 @media only screen and (min-width: 376px) {
-  .container {
-    @include flex-properties(row);
+  body {
+    .container {
+      @include flex-properties(row);
 
-    .image-desktop {
-      display: block !important;
-      width: 100%;
-    }
-  
-    .image-mobile {
-      display: none;
+      .image-desktop {
+        display: block;
+        width: 50%;
+      }
+    
+      .image-mobile {
+        display: none;
+      }
+
+      .text-holder {
+        width: 50%;
+
+        h1 {
+          font-weight: 700;
+        }
+      }
     }
   }
 }
