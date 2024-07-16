@@ -3,28 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">  
   <title>Frontend Mentor | Product preview card component</title>
-  <style>
-    .z {
-      display:flex;
-      flex-wrap: wrap;
-    }
-    .col {
-      flex: 1;
-      border: 10px solid black;
-      min-width: 500px;
-    }
-  </style>
+  <meta name="desciption / author" content="An html css exercise from frontendmentor.io / HamzeKabi">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+
+  <!-- font: mosterrat - Weights: 500, 700-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- font: Fraunces - Weights: 700 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="z">
-    <div class="col">a</div>
-    <div class="col">b</div>
-  </div>
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>. -->
-  </div>
+  <main class="container">
+    <img class="image-mobile" src="images/image-product-mobile.jpg" alt="image-product-mobile.jpg">
+    <img class="image-desktop" src="images/image-product-desktop.jpg" alt="image-product-desktop.jpg">
+    <section class="text-holder">
+      <p class="product-type">PERFUME</p>
+    </section>
+  </main>
 </body>
 </html>
