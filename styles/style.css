@@ -5,15 +5,18 @@
 body {
   background-color: hsl(30, 38%, 92%);
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 body .container {
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
   background-color: hsl(0, 0%, 100%);
   max-width: 90vw;
+  width: 600px;
   margin: 2rem 1rem;
   overflow: hidden;
   border-radius: 1rem;
@@ -40,6 +43,7 @@ body .container .text-holder h1 {
 @media only screen and (min-width: 376px) {
   body .container {
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-direction: row;
   }
