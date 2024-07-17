@@ -17,9 +17,9 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Screenshot
 
-![desktop screenshot]("E:\coding\ht\frontend-practices\product preview card frontendmontor.io\product-preview-card\screenshots\recipe page - desktop screenshot.html.png")
+![desktop screenshot]("https://github.com/HamzeKabi/product-preview-card/blob/844d6eb8f3dd02584c7f10a673db2711993d71aa/screenshots/recipe%20page%20-%20desktop%20screenshot.html.png")
 
-[mobile screenshot]("E:\coding\ht\frontend-practices\product preview card frontendmontor.io\product-preview-card\screenshots\recipe page - mobile screenshot.html.png")
+[mobile screenshot]("https://github.com/HamzeKabi/product-preview-card/blob/844d6eb8f3dd02584c7f10a673db2711993d71aa/screenshots/recipe%20page%20-%20mobile%20screenshot.html.png")
 
 ### Links
 
